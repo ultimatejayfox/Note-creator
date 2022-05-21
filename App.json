@@ -1,0 +1,32 @@
+{
+    "name": "Note Taker",
+    "description": "This app takes notes, retrieves them, and deletes them as well.",
+    "keywords": [
+        "productivity",
+        "express",
+        "bootcamp",
+        "node",
+        "notes"
+    ],
+    "website": "null",
+    "repository": "https://github.com/ultimatejayfox/Note-creator",
+    "success_url": "/",
+    "formation": {
+        "web": {
+            "quantity": 2,
+            "size": "Performance-M"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "https://github.com/stomita/heroku-buildpack-phantomjs"
+        }
+    ],
+    "environments": {
+        "test": {
+            "scripts": {
+                "test": "jest"
+            }
+        }
+    }
+}
